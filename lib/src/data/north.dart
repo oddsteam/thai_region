@@ -1916,27 +1916,41 @@ final _north = Region.north
                 }),
               ],
             ),
-            // District.fromMap({
-            //   "id": "5051",
-            //   "name": {
-            //     "en": "Tet Saban Nakorn Chiangmai(Kan lawi la)*",
-            //     "th": "เทศบาลนครเชียงใหม่ (สาขาแขวงกาลวิละ)*",
-            //   },
-            // }),
-            // District.fromMap({
-            //   "id": "5052",
-            //   "name": {
-            //     "en": "Tet Saban Nakorn Chiangmai(Sri Wi)*",
-            //     "th": "เทศบาลนครเชียงใหม่ (สาขาแขวงศรีวิชั)*",
-            //   },
-            // }),
-            // District.fromMap({
-            //   "id": "5053",
-            //   "name": {
-            //     "en": "Tet Saban Nakorn Chiangmai(Meng Rai)*",
-            //     "th": "เทศบาลนครเชียงใหม่ (สาขาเม็งราย)*",
-            //   },
-            // }),
+            District.fromMap({
+              "id": "5025",
+              "name": {
+                "en": "Galyani Vadhana",
+                "th": "กัลยาณิวัฒนา",
+              },
+            })
+            .setData(
+							data: [
+								SubDistrict.fromMap({
+									"id": "502501",
+                  "zip_code": "58130",
+                  "name": {
+                    "en": "Ban Chan",
+                    "th": "บ้านจันทร์",
+                  },
+								}),
+								SubDistrict.fromMap({
+									"id": "502501",
+                  "zip_code": "58130",
+                  "name": {
+                    "en": "Mae Daet",
+                    "th": "แม่แดด",
+                  },
+								}),
+								SubDistrict.fromMap({
+									"id": "502501",
+                  "zip_code": "58130",
+                  "name": {
+                    "en": "Chaem Luang",
+                    "th": "แจ่มหลวง",
+                  },
+								}),
+							]
+            ),
           ],
         ),
         Province.fromMap({
