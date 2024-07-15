@@ -3672,14 +3672,6 @@ final _north = Region.north
                 }),
                 SubDistrict.fromMap({
                   "id": "530306",
-                  "zip_code": "53110",
-                  "name": {
-                    "en": "Tha Faek",
-                    "th": "ท่าแฝก",
-                  },
-                }),
-                SubDistrict.fromMap({
-                  "id": "530307",
                   "zip_code": "53150",
                   "name": {
                     "en": "Nang Phaya",
@@ -3687,7 +3679,7 @@ final _north = Region.north
                   },
                 }),
                 SubDistrict.fromMap({
-                  "id": "530308",
+                  "id": "530307",
                   "zip_code": "53190",
                   "name": {
                     "en": "Ruam Chit",
@@ -3751,6 +3743,14 @@ final _north = Region.north
                   "name": {
                     "en": "Huai Mun",
                     "th": "ห้วยมุ่น",
+                  },
+                }),
+                SubDistrict.fromMap({
+                  "id": "530407",
+                  "zip_code": "53110",
+                  "name": {
+                    "en": "Tha Faek",
+                    "th": "ท่าแฝก",
                   },
                 }),
               ],
