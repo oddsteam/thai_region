@@ -457,8 +457,8 @@ final _central = Region.central
                   "id": "100905",
                   "zip_code": "10260",
                   "name": {
-                    "en": "Bang Chak",
-                    "th": "บางจาก",
+                    "en": "Phra Khanong Tai",
+                    "th": "พระโขนงใต้",
                   },
                 }),
               ],
